@@ -109,6 +109,7 @@ TW_DEFAULT_BRIGHTNESS := 900
 
 # PitchBlack Flags
 PB_DISABLE_DEFAULT_DM_VERITY := true
+PB_TORCH_PATH := "/sys/class/flashlight_core/flashlight"
 
 # Debug
 TWRP_INCLUDE_LOGCAT := true
