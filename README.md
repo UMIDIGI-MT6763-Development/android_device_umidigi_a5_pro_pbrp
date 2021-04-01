@@ -1,3 +1,5 @@
+Copyright (C) 2021 The PitchBlack Recovery Project
+
 Device Tree for UMIDIGI A5 Pro (A5_Pro)
 ==========================================
 
@@ -17,7 +19,7 @@ It was released in April 2019.
 | Camera                  | 16MP + 8MP + 5MP with Dual-LED and AF Triple Rear Camera                                                                       | 
 
 ## Device picture
-<img src="https://cdn-files.kimovil.com/default/0003/09/thumb_208667_default_big.jpeg" width="660" height="660"/>
+<img src="https://raw.githubusercontent.com/Hadenix/Hadenix.github.io/master/images/umidigi-a5-pro/logo.png"/>
 
 ## Build
 
@@ -26,6 +28,4 @@ $ . build/envsetup.sh && lunch omni_A5_Pro-eng && mka recoveryimage
 ```
 ## Kernel
 
-used prebuild kernel from stock rom [UMIDIGI_A5_Pro_V1.8_20201022](https://community.umidigi.com/forum.php?mod=viewthread&tid=19617&extra=page%3D1)
-
-**Copyright 2021 The Android Open Source Project**
+used prebuild kernel from stock rom [UMIDIGI_A5_Pro_V1.9_20210226](https://www.mediafire.com/file/9evsrqhohzcgrou/UMIDIGI_A5_Pro_V1.9_20210226.rar/file)
