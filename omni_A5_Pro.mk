@@ -33,5 +33,5 @@ $(call inherit-product, vendor/pb/config/common.mk)
 PRODUCT_DEVICE := A5_Pro
 PRODUCT_NAME := omni_A5_Pro
 PRODUCT_BRAND := UMIDIGI
-PRODUCT_MODEL := A5_Pro
+PRODUCT_MODEL := A5 Pro
 PRODUCT_MANUFACTURER := umidigi
