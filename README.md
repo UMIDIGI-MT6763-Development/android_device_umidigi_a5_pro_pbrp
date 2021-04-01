@@ -22,10 +22,16 @@ It was released in April 2019.
 <img src="https://raw.githubusercontent.com/Hadenix/Hadenix.github.io/master/images/umidigi-a5-pro/logo.png"/>
 
 ## Build
+enable building
+```
+. build/envsetup.sh && lunch omni_A5_Pro-eng
+mka recoveryimage
+```
+clear out folder
+```
+make clean
+```
 
-```
-$ . build/envsetup.sh && lunch omni_A5_Pro-eng && mka recoveryimage
-```
 ## Kernel
 
 used prebuild kernel from stock rom [UMIDIGI_A5_Pro_V1.9_20210226](https://www.mediafire.com/file/9evsrqhohzcgrou/UMIDIGI_A5_Pro_V1.9_20210226.rar/file)
