@@ -21,13 +21,19 @@ It was released in April 2019.
 ## Device picture
 <img src="https://raw.githubusercontent.com/Hadenix/Hadenix.github.io/master/images/umidigi-a5-pro/logo.png"/>
 
+## Tree cloning
+* Device
+```
+git clone https://github.com/UMIDIGI-MT6763-Development/android_device_umidigi_a5_pro_pbrp.git device/umidigi/A5_Pro
+```
+
 ## Build
-enable building
+* enable building
 ```
 . build/envsetup.sh && lunch omni_A5_Pro-eng
 mka recoveryimage
 ```
-clear out folder
+* clear out folder
 ```
 make clean
 ```
