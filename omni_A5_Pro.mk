@@ -16,9 +16,6 @@
 # limitations under the License.
 #
 
-# Release name
-PRODUCT_RELEASE_NAME := UMIDIGI A5 Pro
-
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product-if-exists, $(SRC_TARGET_DIR)/product/embedded.mk)
@@ -35,3 +32,7 @@ PRODUCT_NAME := omni_A5_Pro
 PRODUCT_BRAND := UMIDIGI
 PRODUCT_MODEL := A5 Pro
 PRODUCT_MANUFACTURER := umidigi
+
+# HACK: Set vendor patch level
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.vendor.build.security_patch=2099-12-31
