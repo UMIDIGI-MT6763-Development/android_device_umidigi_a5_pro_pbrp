@@ -34,4 +34,4 @@ make clean
 
 ## Kernel
 
-used prebuild kernel from stock rom [UMIDIGI_A5_Pro_V1.9_20210226](https://www.mediafire.com/file/9evsrqhohzcgrou/UMIDIGI_A5_Pro_V1.9_20210226.rar/file)
+used prebuild kernel from stock rom [UMIDIGI_A5_Pro_V2.0_20210326](https://www.mediafire.com/file/kjrks8pn2w478xq/UMIDIGI_A5_Pro_V2.0_20210326.rar/file)
