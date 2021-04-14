@@ -118,6 +118,7 @@ PB_DISABLE_DEFAULT_DM_VERITY := true
 PB_TORCH_PATH := "/sys/class/flashlight_core/flashlight"
 
 # Storage
+TARGET_USE_CUSTOM_LUN_FILE_PATH := /config/usb_gadget/g1/functions/mass_storage.0/lun.%d/file
 TW_INTERNAL_STORAGE_PATH := "/data/media/0"
 TW_INTERNAL_STORAGE_MOUNT_POINT := "data"
 TW_EXTERNAL_STORAGE_PATH := "/external_sd"
