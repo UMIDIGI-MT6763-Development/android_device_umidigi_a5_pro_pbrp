@@ -16,12 +16,15 @@
 # limitations under the License.
 #
 
+# Release name
+PRODUCT_RELEASE_NAME := A5_Pro
+
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product-if-exists, $(SRC_TARGET_DIR)/product/embedded.mk)
 
-# Inherit from A5_Pro device
-$(call inherit-product, device/umidigi/A5_Pro/device.mk)
+#Treble Support
+$(call inherit-product, $(SRC_TARGET_DIR)/product/treble_common_64.mk)
 
 # Inherit some common PBRP stuff.
 $(call inherit-product, vendor/pb/config/common.mk)
@@ -33,6 +36,11 @@ PRODUCT_BRAND := UMIDIGI
 PRODUCT_MODEL := A5 Pro
 PRODUCT_MANUFACTURER := umidigi
 
-# HACK: Set vendor patch level
+PRODUCT_SYSTEM_PROPERTY_BLACKLIST += \
+    ro.product.device \
+    ro.product.name \
+    ro.build.product
+
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.vendor.build.security_patch=2099-12-31
+	ro.secure=1 \
+	ro.adb.secure=0
